@@ -47,6 +47,10 @@ header {
 
 
 }
+#feuille {
+  height:10%;
+  width:10%;
+}
 #down, body {
   font-family: 'Long Cang', cursive;
   font-size:20px;
