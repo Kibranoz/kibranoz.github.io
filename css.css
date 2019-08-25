@@ -46,10 +46,14 @@ header {
   }
 
 
+
 }
-#feuille {
-  height:10%;
-  width:10%;
+.feuille {
+  transform: translateX(1000px) rotate(45deg);
+  height:4%;
+  width:4%;
+  animation-name:wind;
+  animation-duration: 3s;
 }
 #down, body {
   font-family: 'Long Cang', cursive;
@@ -72,4 +76,12 @@ header {
   }
 
 }
+}
+@keyframes wind {
+  from {
+    transform: translateY(-200px) translateX(0px) rotate(0deg);
+  }
+  to {
+    transform: translateY(0px) translateX(1000px) rotate(45deg);
+  }
 }
